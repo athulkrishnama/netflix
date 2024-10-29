@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.logo{
+    max-width: 15rem;
+    cursor: pointer;
+}
+
+.right img{
+    width: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.links{
+    color: white;
+    display: flex;
+    list-style: none;
+    font-family: 'Netflix Sans' , sans-serif;
+}
+
+.links li{
+    margin: 0  1rem;
+    cursor: pointer;
+}
