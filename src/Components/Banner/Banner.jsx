@@ -6,7 +6,7 @@ import info from '../../assets/info.svg'
 import Rowpost from '../Rowpost/Rowpost';
 function Banner() {
     const [movie, setMovie] = useState({});
-    const [originals, setOriginals] = useState([]);
+    const [populars, setPopulars] = useState([]);
     useEffect(()=>{
     // fetching banner movie
       axios.get(popular).then((res)=>{
@@ -19,8 +19,8 @@ function Banner() {
         setMovie(movieObj)
       })
       // fetching originals
-      axios.get(original).then((res)=>{
-        setOriginals(res.data.results);
+      axios.get(popular).then((res)=>{
+        setPopulars(res.data.results);
       })
     },[])
   return (
@@ -33,7 +33,7 @@ function Banner() {
             <button className={styles.info}><img src={info} alt="" />More Info</button>
         </div>
       </div>
-      <Rowpost heading="Originals" data={originals} isLarge/>
+      <Rowpost heading="Popular" data={populars} isLarge/>
     </div>
   )
 }
