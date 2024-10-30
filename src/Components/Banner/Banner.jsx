@@ -17,7 +17,7 @@ function Banner() {
         })
     },[])
   return (
-    <div className={styles.banner} style={{backgroundImage:`url(${movie.posterUrl})`}}>
+    <div className={styles.banner} style={{backgroundImage:`linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(9,9,9,0.5830707282913166) 44%, rgba(0,0,0,1) 100%) ,url(${movie.posterUrl})`,}}>
       <div className={styles.movieDetails}>
         <h1>{movie.movieName}</h1>
         <p>{movie.movieDescription}</p>
