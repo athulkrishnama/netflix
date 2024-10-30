@@ -8,3 +8,13 @@
     font-family: 'Netflix Sans';
     src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2');
 }
+
+@font-face {
+    font-family: 'Netflix Sans Bold';
+    src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2');
+}
+
+@font-face {
+    font-family: 'Netflix Sans light';
+    src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2');
+}
