@@ -6,4 +6,5 @@ export default  axios.create({
     headers: {'Authorization': `Bearer ${API_READ_ACCESS_TOKEN}`}
   });
 
-export const popular = 'movie/popular'
+export const popular = 'movie/popular';
+export const original = 'discover/tv?with_networks=213';
