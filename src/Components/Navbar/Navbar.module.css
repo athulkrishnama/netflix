@@ -6,6 +6,8 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,9,0.5830707282913166) 62%, rgba(252,176,69,0) 100%);
 }
 .logo{
     max-width: 15rem;
