@@ -1,0 +1,35 @@
+.rowpost .movies {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1.5rem;
+}
+
+.rowpost .movies::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.rowpost .movies {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.rowpost h3{
+    font-family: 'Netflix sans';
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.movie{
+    border-radius: 0.5rem;
+}
+
+.large .movie{
+    height: 25rem;
+}
+
+.small .movie{
+    height: 20rem;
+}
