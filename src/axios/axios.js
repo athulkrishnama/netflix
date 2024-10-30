@@ -8,3 +8,7 @@ export default  axios.create({
 
 export const popular = 'movie/popular';
 export const original = 'discover/tv?with_networks=213';
+export const action = 'discover/movie?with_genres=28'
+export const comedy = 'discover/movie?with_genres=35'
+export const adventure = 'discover/movie?with_genres=12'
+export const fantacy = 'discover/movie?with_genres=14'
